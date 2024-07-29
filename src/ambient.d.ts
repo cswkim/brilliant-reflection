@@ -1,0 +1,3 @@
+interface LessonData {
+  description: string;
+}

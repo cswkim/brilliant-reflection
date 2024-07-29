@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply w-16 py-2 rounded-md text-center text-white bg-[#00c052] drop-shadow-lg hover:brightness-125;
+  }
+}
